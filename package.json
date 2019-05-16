@@ -2,6 +2,8 @@
   "name": "react-force-template",
   "description": "Template intended to be a starting point for serious React applications",
   "version": "0.1.0",
+  "author": "Naresh Bhatia",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/nareshbhatia/react-force-template.git"
