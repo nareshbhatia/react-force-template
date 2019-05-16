@@ -10,7 +10,7 @@ Check out the following repos for more complex examples using this template:
 
 -   [Stock Charts](https://github.com/nareshbhatia/stock-charts)
 -   [Manage My Money](https://github.com/nareshbhatia/manage-my-money)
--   [GraphQL BookStore](https://github.com/nareshbhatia/graphql-bookstore)
+-   [GraphQL Bookstore](https://github.com/nareshbhatia/graphql-bookstore)
 
 ## Getting Started
 
