@@ -3,7 +3,11 @@ import Container from '@material-ui/core/Container';
 import { Theme } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/styles';
-import { SimpleAppBar, ViewVerticalContainer } from '@nareshbhatia/react-force';
+import {
+    Header,
+    HeaderTitle,
+    ViewVerticalContainer
+} from '@nareshbhatia/react-force';
 import { PersonList } from '../../components';
 
 const useStyles = makeStyles((theme: Theme) => ({
@@ -21,7 +25,9 @@ export const HomePage = () => {
 
     return (
         <ViewVerticalContainer>
-            <SimpleAppBar>React Force Template</SimpleAppBar>
+            <Header>
+                <HeaderTitle>React Force Template</HeaderTitle>
+            </Header>
             <Container maxWidth="lg" className={classes.container}>
                 <Typography component="h1" variant="h3" color="textSecondary">
                     Hi people

@@ -16,9 +16,9 @@
     "format": "prettier --write README.md 'src/**/*.ts*'"
   },
   "dependencies": {
-    "@material-ui/core": "next",
-    "@material-ui/icons": "next",
-    "@nareshbhatia/react-force": "^1.4.0",
+    "@material-ui/core": "^4.0.1",
+    "@material-ui/icons": "^4.0.1",
+    "@nareshbhatia/react-force": "^1.6.0",
     "axios": "^0.18.0",
     "classnames": "^2.2.6",
     "react": "^16.8.6",
