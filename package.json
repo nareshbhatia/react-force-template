@@ -17,9 +17,9 @@
     "format": "prettier --write README.md 'src/**/{*.md,*.json,*.ts*}'"
   },
   "dependencies": {
-    "@material-ui/core": "^4.1.0",
-    "@material-ui/icons": "^4.1.0",
-    "@nareshbhatia/react-force": "^1.8.1",
+    "@material-ui/core": "^4.1.1",
+    "@material-ui/icons": "^4.2.0",
+    "@nareshbhatia/react-force": "^1.9.0",
     "axios": "^0.19.0",
     "classnames": "^2.2.6",
     "react": "^16.8.6",
@@ -31,9 +31,9 @@
     "@types/node": "12.0.2",
     "@types/react": "16.8.17",
     "@types/react-dom": "16.8.4",
-    "husky": "^2.4.0",
+    "husky": "^2.4.1",
     "prettier": "^1.18.2",
-    "pretty-quick": "^1.10.0",
+    "pretty-quick": "^1.11.1",
     "react-scripts": "3.0.1",
     "typescript": "3.4.5"
   },
