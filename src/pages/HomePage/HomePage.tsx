@@ -1,8 +1,7 @@
 import React from 'react';
 import Container from '@material-ui/core/Container';
-import { Theme } from '@material-ui/core/styles';
+import { makeStyles, Theme } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
-import { makeStyles } from '@material-ui/styles';
 import {
     Header,
     HeaderTitle,
