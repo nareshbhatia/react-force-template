@@ -15,7 +15,7 @@ const mapPersonToDomain = (person: any): Person => {
         name,
         company: company.name,
         email,
-        city: address.city
+        city: address.city,
     };
 };
 
@@ -28,5 +28,5 @@ async function fetchPeople(): Promise<Array<Person>> {
 }
 
 export const PersonService = {
-    fetchPeople
+    fetchPeople,
 };

@@ -2,21 +2,17 @@ import React from 'react';
 import Container from '@material-ui/core/Container';
 import { makeStyles, Theme } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
-import {
-    Header,
-    HeaderTitle,
-    ViewVerticalContainer
-} from '@nareshbhatia/react-force';
+import { Header, HeaderTitle, ViewVerticalContainer } from '@react-force/core';
 import { PersonList } from '../../components';
 
 const useStyles = makeStyles((theme: Theme) => ({
     container: {
         paddingTop: theme.spacing(4),
-        paddingBottom: theme.spacing(4)
+        paddingBottom: theme.spacing(4),
     },
     section: {
-        marginTop: theme.spacing(3)
-    }
+        marginTop: theme.spacing(3),
+    },
 }));
 
 export const HomePage = () => {

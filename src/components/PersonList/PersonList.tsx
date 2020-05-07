@@ -29,7 +29,7 @@ export const PersonList = () => {
                 </TableRow>
             </TableHead>
             <TableBody>
-                {people.map(person => (
+                {people.map((person) => (
                     <TableRow key={person.id}>
                         <TableCell>{person.name}</TableCell>
                         <TableCell>{person.company}</TableCell>
