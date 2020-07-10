@@ -14,6 +14,11 @@ Check out the following repos for more complex examples using this template:
 
 ## Getting Started
 
+Make sure your development machine is set up for building React apps. See the
+recommended setup procedure [here](./dev-machine-setup.md).
+
+Now execute the following commands to build and run the template.
+
 ```bash
 $ yarn
 $ yarn start
