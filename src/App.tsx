@@ -5,7 +5,7 @@ import { ErrorBoundary, Loading } from '@react-force/core';
 import { theme } from './components';
 import { HomePage } from './pages';
 
-export const App: React.FC = () => {
+export const App = () => {
     return (
         <ErrorBoundary>
             <Suspense fallback={<Loading />}>
