@@ -8,7 +8,7 @@ import {
     SideBar,
     ViewVerticalContainer,
 } from '@react-force/core';
-import { Header, MasterDetailExample } from '../../components';
+import { Header, ProductEditor } from '../../components';
 
 const navComponents: Array<NavComponent> = [
     {
@@ -24,9 +24,10 @@ const navComponents: Array<NavComponent> = [
 ];
 
 const navItemMap: { [navItemId: string]: ReactNode } = {
-    'master-detail': <MasterDetailExample />,
+    'master-detail': <ProductEditor />,
 };
 
+// Observe routerState
 export const ExamplesPage = observer(() => {
     const routerStore = useRouterStore();
 

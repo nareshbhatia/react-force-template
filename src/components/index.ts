@@ -1,3 +1,3 @@
 export * from './Header';
-export * from './MasterDetailExample';
 export * from './PersonList';
+export * from './ProductEditor';

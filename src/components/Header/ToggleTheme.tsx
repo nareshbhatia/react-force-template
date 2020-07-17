@@ -5,6 +5,7 @@ import LightIcon from '@material-ui/icons/Brightness2Outlined';
 import { observer } from 'mobx-react';
 import { useRootStore } from '../../contexts';
 
+// Observe paletteType changes
 export const ToggleTheme = observer(() => {
     const rootStore = useRootStore();
     const { prefStore } = rootStore;

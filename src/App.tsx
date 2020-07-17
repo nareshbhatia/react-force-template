@@ -17,7 +17,7 @@ import { viewMap } from './viewMap';
 const rootStore = initApp();
 const { prefStore, routerStore } = rootStore;
 
-// App must be an observer to react to theme changes
+// Observer theme changes
 export const App = observer(() => {
     return (
         <ErrorBoundary>
