@@ -4,17 +4,17 @@ import TableBody from '@material-ui/core/TableBody';
 import TableCell from '@material-ui/core/TableCell';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
-import { usePersonList } from './usePersonList';
+import { usePeople } from './usePeople';
 
 export const PersonList = () => {
-    const { loading, error, people } = usePersonList();
+    const { isLoading, isError, data: people, error } = usePeople();
 
     // Allow ErrorBoundary to handle errors
-    if (error) {
+    if (isError) {
         throw error;
     }
 
-    if (loading) {
+    if (isLoading || people === undefined) {
         return null;
     }
 
