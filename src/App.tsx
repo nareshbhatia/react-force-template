@@ -9,6 +9,7 @@ import {
 } from '@react-force/core';
 import { observer } from 'mobx-react';
 import { RouterContext, RouterView } from 'mobx-state-router';
+// import { ReactQueryDevtools } from 'react-query-devtools';
 import { RootStoreContext } from './contexts';
 import { initApp } from './init';
 import { viewMap } from './viewMap';
@@ -29,6 +30,7 @@ export const App = observer(() => {
                                 <CssBaseline />
                                 <RouterView viewMap={viewMap} />
                                 <MessageRenderer />
+                                {/* <ReactQueryDevtools initialIsOpen /> */}
                             </RouterContext.Provider>
                         </RootStoreContext.Provider>
                     </MessageProvider>
