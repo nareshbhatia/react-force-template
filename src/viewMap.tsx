@@ -1,6 +1,6 @@
 import React from 'react';
 import { NotFound } from '@react-force/core';
-import { ExamplesPage, HomePage } from './pages';
+import { ExamplesPage, HomePage } from './features';
 
 export const viewMap = {
     examples: <ExamplesPage />,

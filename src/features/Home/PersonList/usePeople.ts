@@ -1,8 +1,8 @@
 import { useEnv } from '@react-force/core';
 import axios from 'axios';
 import { useQuery } from 'react-query';
-import { Person } from '../../models';
-import { EnvVar } from '../../utils';
+import { Person } from '../../../models';
+import { EnvVar } from '../../../utils';
 
 /**
  * Maps person received from server to domain

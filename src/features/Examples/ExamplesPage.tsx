@@ -8,7 +8,8 @@ import {
     SideBar,
     ViewVerticalContainer,
 } from '@react-force/core';
-import { Header, ProductEditor } from '../../components';
+import { Header } from '../../components';
+import { ProductEditor } from './ProductEditor';
 
 const navComponents: Array<NavComponent> = [
     {

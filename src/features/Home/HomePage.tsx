@@ -3,7 +3,8 @@ import Container from '@material-ui/core/Container';
 import { makeStyles, Theme } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import { ViewVerticalContainer } from '@react-force/core';
-import { Header, PersonList } from '../../components';
+import { Header } from '../../components';
+import { PersonList } from './PersonList';
 
 const useStyles = makeStyles((theme: Theme) => ({
     container: {
